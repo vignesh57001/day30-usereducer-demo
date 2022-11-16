@@ -19,7 +19,7 @@ import React from "react";
 function Game({ stateMutate }) {
   return (
     <div>
-      <h1>Game ended</h1>
+      <h1>Game</h1>
       <button onClick={() => stateMutate("WIN")}>win</button>
       <button onClick={() => stateMutate("LOSE")}>lose</button>
     </div>
